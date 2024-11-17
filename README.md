@@ -62,7 +62,7 @@ Truth Table
 Verilog Code
 
 4:1 MUX Gate-Level Implementation
-
+```
 module mux4to1(I,S,Y);
 input [3:0]I;
 input [1:0]S;
@@ -136,7 +136,7 @@ S=2'b11;
 S=2'bxx;
 end
 endmodule
-
+```
 <img width="451" alt="4to1MUX  with testbench" src="https://github.com/user-attachments/assets/931b16a4-b5ed-4f9e-bcbf-51df6238dc4f">
 
 
